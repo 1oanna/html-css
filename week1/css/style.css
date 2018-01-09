@@ -1,0 +1,42 @@
+
+
+body{background:lightblue;}
+
+#skip a
+{ 
+position:absolute; 
+left:-10000px; 
+top:auto; 
+width:1px; 
+height:1px; 
+overflow:hidden;
+} 
+ 
+#skip a:focus 
+{ 
+position:static; 
+width:auto; 
+height:auto; 
+} 
+
+h1{color:white;background-color:purple;width:1220px;text-align:center;padding:10px;}
+
+h2{color:purple;text-align: center;}
+
+h3{color:purple;text-align: center;}
+
+
+img{display:block;margin: auto; width: 40%;}
+
+.intro{font-size:25px;color: purple;}
+
+ul{color: darkblue;font-size: 20px;line-height: 200%}
+ol{color: darkblue;font-size:20px;line-height: 200%}
+
+.goals {font-size: 20px;color: purple;}
+
+a:hover,input:hover,button:hover,select:hover,
+a:focus,input:focus,selection:focus{font-weight:bold;}
+
+
+
